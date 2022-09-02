@@ -1,0 +1,11 @@
+.hemorragia { border: 10px solid rgb(255, 0, 0); }
+
+.hemorragia_img{width: 150px;height: 150px; border: 10px  solid rgb(255, 0, 0); }
+
+.h_possivel { border: 10px solid rgb(235, 220, 17); }
+.h_possivel_img{width: 150px;height: 150px; border: 10px solid  rgb(235, 220, 17); }
+
+
+
+.saldavel { border: 10px solid rgba(34, 194, 34, 0.493); }
+.saldavel_img{width: 150px;height: 150px; border: 10px  solid rgba(34, 194, 34, 0.493); }

@@ -12,10 +12,147 @@
 
 
 <div class="container">
-    <div class="row">
+    
+
+
+
+  <div class="row">
+
+      <!--Coluna 1-->
       <div class="col-sm">
             Fila a ser analisada 
+
+            <table class="table">
+              <thead>
+                <th scope="col"> Previa </th> 
+                <th scope="col">ZIPs</th> 
+              </thead>
+              <tbody>
+                  <tr>
+
+                    <!--Usar JS para colocar o nome do exame.zim-->
+                    <td> nome do arquivo zip</td>
+
+                    <td>
+                      <!--Usar JS para ver se a previa deu horragia ou n -->
+                      <link rel="stylesheet" href="mostrar_hemorragias.css">
+                      <div class="hemorragia"></div>
+                    </td>
+                  </tr>
+
+
+
+
+
+                  <tr>
+                    <td> nome do arquivo zip</td>
+                    <td>
+                      <link rel="stylesheet" href="mostrar_hemorragias.css">
+                      <div class="hemorragia"></div>
+                    </td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td> nome do arquivo zip</td>
+                    <td>
+                      <link rel="stylesheet" href="mostrar_hemorragias.css">
+                      <div class="hemorragia"></div>
+                    </td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td> nome do arquivo zip</td>
+                    <td>
+                      <link rel="stylesheet" href="mostrar_hemorragias.css">
+                      <div class="hemorragia"></div>
+                    </td>
+                  </tr>
+
+
+
+                  <tr>
+                    <td> nome do arquivo zip</td>
+                    <td>
+                      <link rel="stylesheet" href="mostrar_hemorragias.css">
+                      <div class="h_possivel"></div>
+                    </td>
+                  </tr>
+
+                  <tr>
+                    <td> nome do arquivo zip</td>
+                    <td>
+                      <link rel="stylesheet" href="mostrar_hemorragias.css">
+                      <div class="saldavel"></div>
+                    </td>
+                  </tr>
+
+              </tbody> 
+            </table>
+
+            <table class="table">
+              <thead>
+                <th scope="col">arquivos já analisados</th> 
+                <th scope="col">condição do pasciente</th> 
+              </thead>
+              <tbody>
+
+
+                  <tr>
+                    <!--Colocar de acordo com as respostas do usuario-->
+                    <td>
+                      arquivo1.zip
+                    </td>
+                    <td> (hemorragia)</td>
+                  </tr>
+                  
+                  <tr>  
+                    <td>
+                      arquivo2.zip
+                    </td>
+                    <td> (hemorragia)</td>
+                  </tr>
+
+                  <tr>  
+                    <td>
+                      arquivo3.zip
+                    </td>
+                    <td> (SAUDÁVEL)</td>
+                  </tr>
+
+
+                  <tr>  
+                    <td>
+                      arquivo4.zip
+                    </td>
+                    <td> (SAUDÁVEL)</td>
+                  </tr>
+
+
+                  <tr>  
+                    <td>
+                      arquivo5.zip
+                    </td>
+                    <td> (hemorragia)</td>
+                  </tr>
+
+              </tbody>
+
+
+
+            </table>
+
+
       </div>
+
+
+
+
+
+      <!--Coluna 2-->
       <div class="col-6">
         SLICE
         <div id="carouselExampleFade" class="carousel slide carousel-fade" data-ride="carousel">
@@ -41,10 +178,96 @@
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="sr-only">Próximo</span>
               </a>
+
           </div>
-      </div>
+          <button type="button" class="btn btn-dark">BRAIN</button>
+          <button type="button" class="btn btn-dark">SUBDURAL</button>
+          <button type="button" class="btn btn-dark">BONE</button>
+          <button type="button" class="btn btn-dark">HEATMAP</button>
+
+        </div>
+
+
+
+
+
+      <!--Coluna 3-->
       <div class="col-sm">
-        ENVIAR
+        <button type="button" class="btn btn-dark">ENVIAR</button>
+        <!--
+          1#COLOCAR DE ACORDO COM A LEITURA DAS IMAGENS DE UM DIRETORIO
+          2#FAZER A LEITURA DO CSV OU JSON PARA AS PREVIAS DE CADA IMAGEM DERIVADO DOS EXAMES DA REDE
+          3#MODIFICAR O CSS DE ACORDO COM A LEITURA DO CSS
+        -->
+        <table>
+          <link rel="stylesheet" href="mostrar_hemorragias.css">
+          <thead>
+            <th scope="col">SLICES</th> 
+          </thead>
+          <tbody>
+              <tr>
+                <td>
+                  <link rel="stylesheet" href="mostrar_hemorragias.css">
+                  <figure>
+                   <img src="ID_00fdec745.png" alt="..." class="hemorragia_img"> 
+                  </figure>
+                 
+                </td>
+
+              </tr>
+
+
+              <tr>
+                <td>
+                  <link rel="stylesheet" href="mostrar_hemorragias.css">
+                  <figure>
+                   <img src="ID_00dfe0c88.png" alt="..." class="hemorragia_img"> 
+                  </figure>
+                </td>
+              </tr>
+
+
+
+
+
+              <tr>
+                <td>
+                  <link rel="stylesheet" href="mostrar_hemorragias.css">
+                  <figure>
+                   <img src="ID_00eced7d8.png" alt="..." class="h_possivel_img"> 
+                  </figure>
+                </td>
+              </tr>
+
+
+
+
+              <tr>
+                <td>
+                  <link rel="stylesheet" href="mostrar_hemorragias.css">
+                  <figure>
+                   <img src="ID_000f0bd99.png" alt="..." class="saldavel_img"> 
+                  </figure>
+                </td>
+              </tr>
+
+
+
+
+
+
+              <tr>
+                <td>
+                  <link rel="stylesheet" href="mostrar_hemorragias.css">
+                  <figure>
+                   <img src="ID_00ed02fcc.png" alt="..." class="hemorragia_img"> 
+                  </figure>
+                </td>
+              </tr>
+
+          </tbody>
+
+        </table>
       </div>
     </div>
   </div>
