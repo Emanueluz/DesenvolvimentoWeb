@@ -43,7 +43,7 @@
 
 <body>
   <script>
-      src = "mortrar_hemorragias.js"
+      src = "mostrar_hemorragias.js"
   </script>
 <style>
  
@@ -60,12 +60,12 @@
           <link rel="stylesheet" href="mostrar_hemorragias.css">
           <figure>
 
-           <img id="imagem_atual" src="ID_000f0bd99.png" alt="..." > 
- 
-            <button onclick="mudarimg('imagem_atual', 'ID_00fdec745.png')" type="button" class="btn btn-dark">BRAIN</button>
-            <button onclick="mudarimg('imagem_atual', 'ID_00ed02fcc.png')" type="button" class="btn btn-dark">SUBDURAL</button>
-            <button onclick="mudarimg('imagem_atual', 'ID_000f0bd99.png')"type="button" class="btn btn-dark">BONE</button>
-            <button onclick="mudarimg('imagem_atual', 'ID_00dfe0c88.png')"type="button" class="btn btn-dark">HEATMAP</button>
+           <img id="imagem_atual" src= "" alt="..." > <script>
+            var imagem = document.getElementById("imagem_atual")
+            imagem.src=(set_imagem_atual2())
+           </script>
+           
+  
           </figure>
         </td>
       </tr>
@@ -83,14 +83,14 @@
 
        <img id="imagem_mod" src="ID_000f0bd99.png" alt="..." > 
          
-        <button onclick= "mudarimg('imagem_mod', set_brain('C:\\Users\\x\\Desktop\\DesenvolvimentoWeb-main\\hemorragias\\teste.json'))" type="button" class="btn btn-dark">BRAIN</button>
-        <button onclick="mudarimg('imagem_mod', set_subdural('teste.json') )" type="button" class="btn btn-dark">SUBDURAL</button>
-        <button onclick="mudarimg('imagem_mod', set_bone('teste.json'))"type="button" class="btn btn-dark">BONE</button>
-        <button onclick="mudarimg('imagem_mod', set_heatmap('teste.json'))" type="button" class="btn btn-dark">HEATMAP</button>
+        <button id="botton_brain" onclick= "set_brain()" type="button" class="btn btn-dark">BRAIN</button>
+        
+        <button id="botton_subdural" onclick="  set_subdural(  )" type="button" class="btn btn-dark">SUBDURAL</button>
+        <button id="botton_bone" onclick=" set_bone( )"type="button" class="btn btn-dark">BONE</button>
+        <button id="botton_heatmap" onclick=" set_heatmap( )" type="button" class="btn btn-dark">HEATMAP</button>
       </figure>
     </td>
   </tr>
-
 </div>
 
 

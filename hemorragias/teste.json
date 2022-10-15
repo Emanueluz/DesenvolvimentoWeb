@@ -1,10 +1,6 @@
-{ "file_path": "file_path",
-"extension": "extension",
-"uuid": "unique_id",
-"success": "True",
-"error_msg": "",
-"brain":"ID_00fdec745",
-"subdural":"ID_000f0bd99",
-"bone":"ID_00ed02fcc",
-"heatmap":"ID_00fdec745"
+{ 
+"brain":"ID_00fdec745.png",
+"subdural":"ID_000f0bd99.png",
+"bone":"ID_00ed02fcc.png",
+"heatmap":"ID_00fdec745.png"
   }
